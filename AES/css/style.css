@@ -1,0 +1,12 @@
+*{
+
+    text-align: center;
+    background-color: gray;
+}
+
+#cuadro{
+    margin: auto ;
+    padding: 10px;
+    border: black;
+    border-radius: 10px;
+}

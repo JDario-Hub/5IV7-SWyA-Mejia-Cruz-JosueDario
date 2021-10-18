@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo AES Web</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h1><p>Cifrado AES</p></h1>
+    
+    <form id="cuadro">
+    <label>Mensaje:</label>
+    <br>
+    <textarea id="Mensaje"></textarea>
+    <br>
+    <br>
+    <label>Contraseña:</label>
+    <input id="Password">
+    <br>
+    <br>
+    <label>Caracteres:</label>
+    <input type="radio" name="caracteres" value="128"><label>128</label>
+    <input type="radio" name="caracteres" value="192"><label>192</label>
+    <input type="radio" name="caracteres" value="192"><label>256</label>
+  </form>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js" ></script>
+    <script src="js/aes.js" ></script>
+</body>
+</html>
