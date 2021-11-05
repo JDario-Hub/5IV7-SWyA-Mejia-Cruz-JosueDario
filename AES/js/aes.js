@@ -20,6 +20,7 @@ var cifrado = CryptoJS.AES.encrypt(mensaje, password);
 
 var descifrado = CryptoJS.AES.decrypt(cifrado, password);
 
+var s= descifrado.document
 
 document.getElementById("demo0").innerHTML = mensaje;
 document.getElementById("demo1").innerHTML = cifrado;
